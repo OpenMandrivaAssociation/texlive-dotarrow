@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/dotarrow
+# catalog-date 2008-08-18 13:49:16 +0200
+# catalog-license lppl
+# catalog-version 0.01a
 Name:		texlive-dotarrow
 Version:	0.01a
 Release:	1
@@ -44,6 +50,7 @@ same was as \xrightarrow.
 #- source
 %doc %{_texmfdistdir}/source/latex/dotarrow/DotArrow.dtx
 %doc %{_texmfdistdir}/source/latex/dotarrow/DotArrow.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ same was as \xrightarrow.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
