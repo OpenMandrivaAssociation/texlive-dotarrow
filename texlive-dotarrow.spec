@@ -50,3 +50,17 @@ same was as \xrightarrow.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.01a-2
++ Revision: 751038
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.01a-1
++ Revision: 718249
+- texlive-dotarrow
+- texlive-dotarrow
+- texlive-dotarrow
+- texlive-dotarrow
+
