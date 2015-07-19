@@ -6,7 +6,7 @@
 # catalog-version 0.01a
 Name:		texlive-dotarrow
 Version:	0.01a
-Release:	9
+Release:	10
 Summary:	Extendable dotted arrows
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/dotarrow
